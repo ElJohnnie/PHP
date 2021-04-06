@@ -78,9 +78,7 @@ if(isset($_GET['telfo']))
 			</tr>
 			<?php endforeach; ?>
 			
-			<?php/*o
-		foreach. Este laço serve para passar por todos os índices de um array, atribuindo
-		cada índice a uma variável que escolhemos, no caso, a variável $tarefa.*/ ?>
+			
 		</table>
 	</div>
 </body>	

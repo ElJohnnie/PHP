@@ -70,7 +70,8 @@ try {
 
     //Recipients
     $mail->setFrom('', '');
-    $mail->addAddress("$mensagem->__set('para', $_POST['para']);", '');     // Add a recipient
+    $mail->addAddress($mensagem->__set('para', $_POST['para']));     
+    // Add a recipient
     //$mail->addReplyTo('info@example.com', 'Information');
     //$mail->addCC('cc@example.com');
     //$mail->addBCC('bcc@example.com');
