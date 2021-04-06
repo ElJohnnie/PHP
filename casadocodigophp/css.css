@@ -1,0 +1,38 @@
+.englo
+{background-color: none;
+width:300px;
+height: auto;
+text-align:center;
+}
+
+
+
+form
+{background-color: #cccccc;
+width: auto;
+height: auto;
+}
+
+legend{
+height:auto;
+width: auto;}
+
+fieldset{
+}
+input{width:auto;}
+
+table
+{
+width: auto;
+background-color: none;
+position:relative;
+bottom:16px;
+}
+
+table th {background: gray;}
+
+table td {
+	height: auto;
+	border-bottom: 1px solid black;}
+	
+.erro {color: red;}

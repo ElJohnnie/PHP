@@ -1,0 +1,35 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Meu primeiro software</title>
+</head>
+
+<body>
+<!--Nunca esquecer do action e do method post -->
+	<form action="pagprocess.php" method="post">
+    <table border="1" align="center">
+        <tr bgcolor="#CCCCCC"> 
+                <td width="200" colspan="2">Pequeno software de marcação de páginas.</td>               
+         </tr>
+    	<tr bgcolor="#CCCCCC"> 
+        	<td width="150">Livro</td>
+            <td width="70">Página</td>
+        </tr>
+        <tr>
+        	<td>
+            <select name="livro">
+            	<option id="a" value="a">PHP e mysql desenvolvimento web</option>
+                <option id="b" value="b">Html5 e css3 domine a web do futuro - Casa do Codigo</option>
+                <option id="c" value="c">Desenvolvimento web com PHP e MySQL - Casa do Codigo</option>
+            </select>
+            </td>
+            <td><input type="text" name="pag" size="5" maxlength="3"></td>
+        </tr>
+        <tr>
+        	<td colspan="2" align="center"><input type="submit" value="Enviar coordenada"></td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
